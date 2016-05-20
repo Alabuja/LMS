@@ -1,0 +1,13 @@
+.container{
+    border: 1px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+body{
+    padding-top: 70px;
+}

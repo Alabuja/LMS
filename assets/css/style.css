@@ -1,0 +1,130 @@
+/*body{
+        padding-top: 200px;
+      /*  padding-bottom: 40px; 
+} */
+.container h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif, italic;
+    font-weight: 700;
+   
+}
+.homepage{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container hr{
+    border-color:#E13300;
+    width: 90px;
+    margin-top: 0px;
+}
+.container p{
+    text-align: center;
+}
+.container p, .homepage ul{
+    font-family: 'Lato', Arial;
+    font-weight: 400;
+    font-size: 18px;
+} 
+#emphasis{
+    color: red;
+}
+footer{
+    text-align: center;
+    background-color: gold;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+.img-thumbnail{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#quotes{
+    background-color: #f5f5f5;
+}
+#about{
+    background-color: #5cb85c;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+#contact{
+    background-color: #66afe9;
+}
+.image{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#home{
+    background-color: gainsboro;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+/*Responsive styling*/
+@media (max-width: 1190px) {
+    .img-thumbnail{
+        display: table;
+         margin-left: 26.666666667%;
+        width: 150px;
+        height: 150px;
+        -webkit-border-radius: 75px;
+    }
+    .container p, .homepage ul {
+        font-family: 'Lato', Arial;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 19px;
+    }
+    .container h2{
+        font-weight: 400;
+    }
+}
+@media (max-width: 991px) {
+    .img-thumbnail{
+        display: table;
+        margin: 0 auto; 
+        width: 100px;
+        height: 100px;
+        -webkit-border-radius: 50px;
+    }
+    .container p, .homepage ul {
+        font-family: 'Lato', Arial;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .container h2{
+        font-size: 23px;
+        font-weight: 400; 
+    }
+    footer p{
+        font-size: 17px;
+    }
+}
+@media (max-width: 767px) {
+    .img-thumbnail{
+        display: table;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        -webkit-border-radius: 50px;
+    }
+    .homepage p{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    .container-fluid h2{
+        font-weight: 400;
+    }
+    .container p, .homepage ul {
+        font-family: 'Lato', Arial;
+        font-weight: 400;
+        font-size: 15px;
+    }
+}
